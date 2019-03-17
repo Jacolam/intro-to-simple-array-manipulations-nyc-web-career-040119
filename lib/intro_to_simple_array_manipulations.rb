@@ -42,3 +42,7 @@ end
 def using_delete(arr,delete_this)
   arr.delete(delete_this)
 end
+
+def using_delete_at(arr,integer)
+  arr.delete[integer]
+end
